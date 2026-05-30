@@ -14,6 +14,8 @@ frameworks).
 ● Decay Coefficient: 1.0 (The momentum preservation factor utilized exclusively inside the
 MIFGSM algorithm).
 
+● Model: CNN Model with Conv2D (32 filters, 3x3 kernel, ReLU) -> MaxPooling2D (2x2) -> Conv2D (64 filters, 3x3 kernel, ReLU) -> MaxPooling2D (2x2) -> Flatten -> Dense layer (64 units, ReLU) -> Dropout layer (0.5 rate) -> Dense Output layer (10 units, Softmax).
+
 
 Fast Gradient Sign Method (FGSM)
 
